@@ -1,0 +1,17 @@
+module mac(in_a, in_b, in_valid_a, in_valid_b, clk, 
+			reset, mac_out, out_valid);
+
+//input output declartion			
+input signed [3:0] 	 in_a, in_b;
+input 			     in_valid_a, in_valid_b;
+input			     clk, reset;
+output signed [10:0] mac_out;
+output 		         out_valid;
+/////////////////////////////////////////////
+
+always@(posedge clk)begin
+ 
+
+
+
+endmodule
